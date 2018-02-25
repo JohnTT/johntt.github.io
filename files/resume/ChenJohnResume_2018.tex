@@ -1,0 +1,127 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{palatino}
+\usepackage{tabto}
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+	
+% Center the name over the entire width of resume:
+\moveleft.5\hoffset\centerline{\Large\bf John Matthew Chen}
+% Draw a horizontal line the whole width of resume:
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+
+\begin{minipage}{0.4\textwidth}
+\moveleft\hoffset\vbox{
+PH\#3-221 Queen Street South \\ 
+Kitchener, ON N2G 1W5}
+\end{minipage}
+\hfill
+\begin{minipage}{0.6\textwidth}
+\flushright\moveright\hoffset\vbox{
+jmc\_tt@live.com \\
+(204) 807-4524 \\
+https://johntt.github.io/
+}
+\end{minipage}
+
+\begin{resume}
+
+\section{WORK \\ EXPERIENCE} 
+{\sl Embedded Software Developer} \hfill August 2018 - Present \\
+Aeryon Labs Inc., Waterloo, Ontario
+
+{\sl Technician} \hfill July 2018 \\
+Mobile Klinik, Kildonan Place, Winnipeg, Manitoba
+\begin{itemize} \itemsep -0pt 
+	\item Performed screen replacements for customers with broken iPhone 6 and 7 models within advertised repair estimates of about an hour.
+\end{itemize}
+
+{\sl Research Assistant (Advisor: Dr. Carl Ho)} \hfill May - August, 2017 \\
+RIGA Lab - University of Manitoba
+\begin{itemize} \itemsep -0pt 
+	\item Designed and simulated a programmable DC-AC grid-tied, active load using the Plexim PLECS power electronics software.
+	\item Programmed the TI LAUNCHXL-F28377S using the C programming language and the Code Composer Studio IDE to implement PI (Proportional-Integral) and hysteresis controllers.
+\end{itemize}
+
+{\sl Research Assistant (Advisor: Dr. Douglas Buchanan)} \hfill May - August, 2016 \\
+Nano Systems Research Lab - University of Manitoba
+\begin{itemize} \itemsep -0pt 
+	\item Performed research into micro-machined (MEMS) ultrasound transducers with the characteristics needed for Synthetic Aperture (SA) imaging.
+	\item Designed a graphical user interface in LabVIEW which allows the user to control an Optics Focus Motorized XYZ Stage connected over RS232, and save measurements recorded by an oscilloscope connected over GPIB.
+\end{itemize}
+
+\section{EDUCATION} 
+Bachelor of Science in Electrical Engineering \hfill May 2018 \\
+University of Manitoba, Winnipeg, MB, Canada \\	
+Grade Point Average: 4.09/4.50 
+
+\section{ENGINEERING \\ PROJECTS} 
+
+{\bf University of Manitoba ecoMotion (Shell Eco-Marathon) Team} \hfill 2016 - 2018 \\
+{\sl Secretary (2016-2018) and Propulsion Controls Lead (2017-2018)}
+\begin{itemize}  \itemsep -0pt %reduce space between items
+	\item Executive member of student design team, UM ecoMotion, founded in January 2016, which competes annually in the Shell Eco-Marathon competition.
+	\item Placed 14th (80.62 km/kWh) in 2017, and 10th (101.8 km/kWh) in 2018, in the Americas Battery Electric Prototype vehicle category.	
+	\item Created a SPI software driver to draw shapes, numbers and letters onto the Pervasive Displays 4.41″ E-Paper Display.
+	\item Programmed STM32 Nucleo boards in C using SW4STM32 (Eclipse-based IDE) to parse SAE J1939 CAN messages from the AllCell Battery Management System and to send CAN messages to the motor controller.
+	\item Utilized an open-source Git repository for the VESC STM32 F4 based BLDC motor controller running ChibiOS for the propulsion system.
+	
+	\newpage
+	\moveleft.5\hoffset\centerline{\Large\bf John Matthew Chen}
+	\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}	
+	
+	\item Ported a C++ Arduino library to STM32 for an Adafruit I2C Seven-Segment display which was used as the speedometer.
+	\item Maintained version control of three different projects for the throttle, master and display Nucleo boards using GitLab.
+	\item Proficient in using test equipment, such as multi-meters, oscilloscopes, and logic analyzers to debug issues with protocols (CAN, I2C, SPI, etc.).
+	\item Experience using hand tools (wrenches, hacksaws, screwdrivers) and power tools (drills, jigsaws, foam cutters) to manufacture parts for the vehicle.
+	\item Designed schematics and layout files for a 48V/20A Joulemeter using Altium Designer based off the Teensy 3.2.
+	\item Led the registration process for the team resulting in over 60 members and over \$2500 in membership fees for the 2016-2018 period.
+	\item Created and designed the team website, http://umecomotion.ca/, using the Drupal content-management framework.
+	\item Obtained \$8000 (2016) and \$6000 (2017) in sponsorship from the Engineering Endowment Fund.
+
+\end{itemize}
+
+{\bf International Olympiad in Informatics} \hfill 2010, 2012, 2013
+
+{\bf Capstone Design Project - 3rd Place Award} \hfill April 2018 \\
+{\sl IEEE Canada, Winnipeg Section}
+\begin{itemize}  \itemsep -0pt 
+	\item Designed a Bluetooth LE glove based on the Adafruit nRF52 Feather and the BNO055 IMU that converts user hand movements and gestures into mouse commands.
+	\item Modified an existing UWP Microsoft application for demonstration purposes using Visual Studio, C\# and XAML.
+\end{itemize}
+
+{\bf Relevant Coursework}
+\begin{itemize}  \itemsep -0pt 
+	\item Completed the courses: Power Electronics, High Voltage Engineering, Control Systems, Design of RF/Wireless Systems, Microwave Engineering, Antennas, Digital Communications, Signal Processing 1\&2
+	\item Experience using both Python and MATLAB for file I/O, calculations, and graphing.
+\end{itemize}
+	
+\section{COMPUTER \\ SKILLS} 
+{\sl Programming Languages:} C, C++, C\#, Python 2/3, Java, Javascript, Pascal, HTML, XML, XAML, CSS, Verilog HDL, 68HC12 Assembly, LaTeX, SQL
+
+{\sl Software:} Eclipse, MPLAB X, TI CCS, SW4STM32, Visual Studio, .NET Framework, Universal Windows Platform (UWP), Arduino, Code::Blocks, Git,  mbed, Altium Designer, Drupal, cPanel, MATLAB, NI LabVIEW, AutoCAD, NI Multisim, PSCAD, Plexim PLECS, COMSOL Multiphysics, Advanced Design System (ADS), FEKO, OriginLab Origin, Tanner L-Edit, Android Studio, Microsoft Office (Word, Excel, Powerpoint, Access, Project, Visio)
+
+\section{ACADEMIC \\ AWARDS} 
+Engineering Academic Excellence Award - First Place Electrical \hfill September 2016 \\
+Undergraduate Research Award \hfill April 2016, April 2017 \\
+Price Industries Limited Entrance Scholarships for Engineering \hfill March 2015 
+           
+\iffalse
+{\sl International Olympiad in Informatics}
+\begin{itemize}  \itemsep -0pt 
+	\item Competed in an annual programming competition which brings together exceptionally talented pupils from over 80 countries
+\end{itemize} 
+\begin{enumerate}  \itemsep -0pt %reduce space between items
+	\item University of Waterloo, Ontario, Canada \hfill August 14-21, 2010
+	\item Sirmione - Montichiari, Italy \hfill September 23-30, 2012
+	\item University of Queensland, Brisbane, Australia \hfill July 6-13, 2013
+\end{enumerate}
+\fi
+
+\end{resume}
+\end{document}
+
+
+
+

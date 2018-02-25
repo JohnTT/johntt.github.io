@@ -1,0 +1,120 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2018.4.28)  23 AUG 2018 23:18
+entering extended mode
+**./ChenJohnResume_2018.tex
+(ChenJohnResume_2018.tex
+LaTeX2e <2017-04-15>
+Babel <3.9t> and hyphenation patterns for 76 language(s) loaded.
+(res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+No auxiliary output files.
+
+\tabular@text=\toks14
+\tabular@head=\toks15
+\tabular@tail=\toks16
+\@ta=\toks17
+\undefined@token=\toks18
+\sectionwidth=\dimen103
+\sectionskip=\skip43
+\resumewidth=\dimen104
+\@columnwidth=\dimen105
+\c@numberofcolumns=\count87
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\palatino.sty"
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tabto\tabto.sty"
+Package: tabto 2013/03/25  v 1.3  Another tabbing mechanism
+\CurrentLineWidth=\dimen106
+)
+No file ChenJohnResume_2018.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 7.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 18.
+
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 14--27
+[]$[]$  $[]$ 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 37.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+
+Overfull \hbox (1.40855pt too wide) in paragraph at lines 50--51
+[]\OT1/ppl/m/n/10 Performed re-search into micro-machined (MEMS) ul-tra-sound t
+rans-duc-ers with
+ []
+
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ³ in font pplr7t!
+
+Overfull \hbox (0.50931pt too wide) in paragraph at lines 67--68
+[]\OT1/ppl/m/n/10 Programmed STM32 Nu-cleo boards in C us-ing SW4STM32 (Eclipse
+-based IDE)
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] ) 
+Here is how much of TeX's memory you used:
+ 381 strings out of 493320
+ 4557 string characters out of 3138960
+ 58792 words of memory out of 3000000
+ 3985 multiletter control sequences out of 15000+200000
+ 9116 words of font info for 25 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,8n,19p,464b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palat
+ino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on ChenJohnResume_2018.pdf (2 pages, 77932 bytes).
+PDF statistics:
+ 26 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
